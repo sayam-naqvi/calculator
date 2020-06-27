@@ -1,0 +1,25 @@
+.main {
+    border : 2px solid black;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+.result {
+    width : 95%;
+    background-color: black;
+    color : #ffffff;
+
+}
+.clearbtn{
+     width: 48%; 
+    margin-top: 10px;
+    background-color: black;
+    color : #ffffff;
+}
+.btn{
+    width: 40px;
+    background-color: black;
+    color : #ffffff;
+    margin : 2px;
+    
+}

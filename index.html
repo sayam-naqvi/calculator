@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="main">
+        <tr >
+            <td>
+                <input id="result" class="result" placeholder="0" type="text">
+                
+            </td>
+        </tr>
+        <tr >
+            <td>
+                <button  class="clearbtn" onclick="clearResult()" >C</button>
+                <button class="clearbtn" onclick="clearValue()">↩</button>
+                <!-- <button  class="btn" onclick="percentage()">%</button>   -->
+            </td>
+        </tr>
+        <tr >
+            <td>
+              <button class="btn" onclick="reciprocal()"> 1/x</button>
+              <button class="btn" onclick="square()">x²</button>
+              <button class="btn" onclick="squareRoot()">√</button>
+               <button  class="btn" onclick="getNumber('/')">÷</button>   
+            </td>
+        </tr>
+        <tr >            
+            <td>
+                <button class="btn" onclick="getNumber('7')">7</button>
+              <button class="btn" onclick="getNumber('8')">8</button>
+              <button class="btn" onclick="getNumber('9')">9</button>
+              <button class="btn" onclick="getNumber('*')">×</button>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn" onclick="getNumber('4')">4</button>
+                <button class="btn" onclick="getNumber('5')">5</button>
+                <button class="btn" onclick="getNumber('6')">6</button>
+                <button class="btn" onclick="getNumber('-')">–</button>
+                  
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn" onclick="getNumber('1')">1</button>
+                <button class="btn" onclick="getNumber('2')">2</button>
+                <button class="btn" onclick="getNumber('3')" >3</button>
+                <button class="btn" onclick="getNumber('+')">+</button>            
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn" onclick="signNumber()" >±</button>
+                <button class="btn" onclick="getNumber('0')">0</button>
+                <button class="btn" onclick="getNumber('.')">.</button>
+                <button class="btn" onclick="getResult()">󠀽󠀽󠀽󠀽󠀽=</button>            
+            </td>
+        </tr>
+        <!-- <tr>
+            <td>
+                <button class="btn" onclick="Sin()" >sin</button>
+                <button class="btn" onclick="Cos()">cos</button>
+                <button class="btn" onclick="Tan()">tan</button>
+                <button class="btn" onclick="logarithm()">󠀽󠀽󠀽󠀽󠀽log</button>            
+            </td>
+        </tr> -->
+
+    </table>
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
